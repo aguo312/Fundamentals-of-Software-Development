@@ -1,0 +1,175 @@
+/* Add CSS */
+body {
+  margin: 0;
+}
+
+.banner {
+  overflow: hidden;
+  background-color: lightgray;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.banner a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.currentTab {
+  background-color: #0281e8;
+}
+
+.notCurrentTab {
+  background-color: lightgray;
+}
+
+.notCurrentTab:hover {
+  background-color: gray;
+  color: black;
+}
+
+.banner b {
+  font-size: 150%;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 46.4px;
+}
+
+.banner input {
+  float: right;
+  display: block;
+  text-align: left;
+  margin: 12px;
+}
+
+.main {
+  margin-top: 50px;
+  text-align: center;
+  color: red;
+}
+
+.main button {
+  background-color: #165a92;
+  color: white;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  color: black;
+}
+
+th,
+td {
+  text-align: center;
+}
+
+td {
+  border-bottom: 4px dotted;
+}
+
+.leftColumn {
+  text-align: left;
+  padding-left: 3%;
+  width: 20%;
+}
+
+.centerColumn {
+  text-align: left;
+  width: 60%;
+}
+
+.rightColumn {
+  text-align: right;
+  padding-right: 3%;
+  width: 20%;
+}
+
+.titleLink {
+  color: #0281e8;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.titleLink:hover {
+  color: darkblue;
+}
+
+.questionsTag {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.questionsTag div {
+  background-color: gray;
+  color: white;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  display: inline;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+}
+
+#questionForm,
+#answerForm {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#questionForm textarea,
+#answerForm textarea {
+  width: 100%;
+  padding-bottom: 1%;
+}
+
+#questionForm label div,
+#answerForm label div {
+  font-size: xx-large;
+}
+
+#questionForm #postQuestionButton,
+#answerForm #postAnswerButton {
+  background-color: #165a92;
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+  width: auto;
+  padding: 2%;
+}
+
+#oneQuestionButton {
+  text-align: center;
+}
+
+#tags {
+  border-collapse: separate;
+  -webkit-border-horizontal-spacing: 150px;
+  -webkit-border-vertical-spacing: 20px;
+}
+
+#tags tr th {
+  width: 33%;
+}
+
+#tags tr td {
+  border: 1px;
+  border-style: solid;
+  font-size: x-large;
+  padding: 2%;
+}
+
+#tags tr td a {
+  color: #0281e8;
+}
